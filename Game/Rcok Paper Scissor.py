@@ -10,19 +10,19 @@ while True:
         print(f"Both players selected {user_action}. It's a tie!")
     elif user_action == "rock":
         if computer_action == "paper":
-            print("Rock smashes scissors! You Win !")
+            print("Rock smashes scissors!\U0001f600")
         else:
-            print("Paper covers rock ! You win!")
+            print("Paper covers rock ! Computer wins!")
     elif user_action == "paper":
         if computer_action == "rock":
-            print("paper covers rock! You win")
+            print("paper covers rock! \U0001f606")
         else:
-            print("Scissors cuts paper! hahaha!")
+            print("Scissors cuts paper! Computer Win!")
     elif user_action == "scissor":
         if computer_action == "paper":
-            print("scissor cuts paper! You win")
+            print("scissor cuts paper! \U0001F641")
         else:
-            print("Rock smashes scissor! Try Again  fella!")
+            print("Rock smashes scissor!Computer win!")
 
     play_again = input("play again? (y/n):")
     if play_again != 'y':
